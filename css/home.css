@@ -1,0 +1,17 @@
+/* nav div:hover {
+    background-color: aqua;
+    padding: 2em;
+} */
+
+
+div {
+    display: flex;
+}
+
+div a:hover {
+   border: solid 2px antiquewhite;
+    padding: 1em;
+    border-radius: 15px;
+    background-color: antiquewhite;  
+}
+

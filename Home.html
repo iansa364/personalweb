@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage</title>
+    <!--<link> to Bootstrap’s “minified” CSS in the head. Included bootstrap via CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link href="css/home.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm w-100 position-fixed top-0">
+            <!--navbar class used to expand the navbar across the header and the sm is the breakpoint for the the hamburger nav, width is 100 and used position absolute to position the nav bar at the top-->
+            <!-- the button is the hamburger menu for the small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-around" id="navbarNav">
+                <!--id of data-bs-target and the div using collapse class from bootstrap must match-->
+                <a class="nav-link" href="Home.html" title="home">Home</a>
+                <a class="nav-link" href="page1.html" title="artifact1" target="_blank">Artifact 1</a>
+                <a class="nav-link" href="page2.html" title="artifact2">Artifact 2</a>
+                <a class="nav-link" href="page3.html" title="artifact3">Artifact 3</a>
+                <a class="nav-link" href="page4.html" title="artifact4">Artifact 4</a>
+                <a class="nav-link" href="contact.html" title="contact">Contact</a>
+            </div>
+        </nav>
+        <h1></h1>
+    </header>
+
+    
+    <!--fixed nav, color chnage when hover, background image in header-->
+    <!-- the script is for javascript files of Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

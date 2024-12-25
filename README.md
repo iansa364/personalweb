@@ -1,2 +1,2 @@
-# personalweb
+# Shopping Website
 shopping-website
